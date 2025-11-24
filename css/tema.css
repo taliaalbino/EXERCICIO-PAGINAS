@@ -2,10 +2,14 @@ body {
 
     background-color: #b5ace6;
 
-    background-image: url("../img/Fundo1.jpg");
-    
-
 }
+.home {
+    background-image: url("../img/Fundo1.jpg");
+    background-size: cover;       /* cobre a tela inteira */
+    background-position: center;  /* centraliza */
+    background-repeat: no-repeat; /* não repete */
+}
+
 
 .links-contato a {
     display: inline-block;
