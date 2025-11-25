@@ -1,6 +1,6 @@
 body {
 
-    background-color: #b5ace6;
+    background-color: #daa16bc7;
 
 }
 .home {
@@ -10,6 +10,50 @@ body {
     background-repeat: no-repeat; /* não repete */
 }
 
+
+.hero-box {
+    background-color: rgba(255, 255, 255, 0.8); /* fundo clarinho */
+    width: 80%;
+    margin: 80px auto;  /* centraliza o bloco */
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* leve sombra */
+}
+
+
+#menu {
+
+    list-style-type: none;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+}
+
+#menu li {
+    text-align: center;
+    padding: 6px;
+}
+
+#menu li a {
+
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+
+#menu li a:hover {
+    color: #9b7e4a;
+    font-size: 2,3em;
+}
+
+.linha-titulo {
+
+    background-color: #1fd3d3;
+    color: #0b0c0c;
+}
 
 .links-contato a {
     display: inline-block;
@@ -25,4 +69,3 @@ body {
 .links-contato a:hover {
     background-color: #b89d89;
 }
-
