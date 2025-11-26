@@ -17,22 +17,26 @@ body {
     margin: 30px right;
     padding: 60px;
     border-radius: 50px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* leve sombra */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* leve sombra */
 }
-
 
 #menu {
 
     width: 100%;
+    font-size: 20px;
+    height: 6px;
     padding: 20px 40px;
     display: flex;
     margin: 30px right;
-    justify-content: space-between;
+    justify-content: space-betweecen;
     align-items: center;
-    border-bottom: 3px solid #ddd;
+    border-bottom: 4px solid #ddd;
     border-radius: 0 0 20px 20px;
     background: white;
+    list-style: none;
 
 }
 
@@ -47,6 +51,7 @@ body {
     text-decoration: none;
     color: #333;
     font-size: 20px;
+    
 }
 
 #menu li a:hover {
@@ -73,4 +78,19 @@ body {
 
 .links-contato a:hover {
     background-color: #b89d89;
+}
+
+h1{
+    font-size:50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    font-size:20;
+    display: flex;
+
+    
 }
