@@ -1,42 +1,52 @@
-<!-- criar um titulo na pagina Sobre e dois links:
- - primeiro link deve ir para o index
- - e outra para a pagina contato -->
-
 <html>
 
 <head>
-
+    <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="./css/tema.css">
-
-
 </head>
 
 <body>
 
-
     <ul id="menu">
-        <li>Talia da Costa Albino</li>
-        <li><a href="./index.html">Home </a> </li>
-        <li><a href="./Projetos.html">Projetos</a></li>
-        <li><a href="./Sobre.html">Sobre </a> </li>
+        <div class="nome">Talia da Costa Albino</div>
 
+        <div class="links-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Projetos.html" class="ativo">Projetos</a></li>
+            <li><a href="./Sobre.html">Sobre</a></li>
+        </div>
     </ul>
 
-    <h1> Projetos</h1>
+    <div class="caixa-container">
 
-    <h2>1ª Curso técnico</h2>
-
-    <p>
-        Curso Técnico em Informática, com início previsto para 2026 e conclusão em 2027.
-    </p>
+        <h1>Projetos</h1>
+        <p class="subtitulo">Alguns projetos que eu fiz</p>
 
 
-        </tbody>
+        <div class="lista-caixa">
 
 
-    </table>
+            <div class="caixa-card">
+                <h3>Aulas_html</h3>
+                <p>Elaboração de páginas web simples utilizando HTML e CSS</p>
+                <a class="btn-github" href="https://github.com/taliaalbino/AULAS_HTML.git">Github</a>
+            </div>
 
 
+            <div class="caixa-card">
+                <h3>Site pessoal</h3>
+                <p>Criação de páginas web, incluindo uma página inicial (index.html), uma página sobre mim (Sobre.html)
+                    e uma página
+                    de projetos (Projetos.html). Cada página contém informações relevantes e links de navegação entre
+                    elas.</p>
+                <a class="btn-github" href="https://github.com/taliaalbino/EXERCICIO-PAGINAS.git">Github</a>
+            </div>
+
+
+
+        </div>
+
+    </div>
 
 </body>
 
